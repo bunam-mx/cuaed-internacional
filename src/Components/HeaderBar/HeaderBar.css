@@ -1,0 +1,12 @@
+header {
+    @apply bg-cuaed_white fixed w-full top-0;
+}
+header nav {
+    @apply bg-cuaed_blue sm:bg-transparent mt-2 sm:mt-0 py-2 sm:py-0 text-cuaed_white sm:text-cuaed_blue text-sm;
+}
+header nav a {
+    @apply hover:underline underline-offset-4
+}
+ul li {
+    @apply inline-block mx-2 align-bottom;
+}
