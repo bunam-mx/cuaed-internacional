@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/**/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        cuaed_blue: "#25387E",
+        cuaed_gold: "#E99F1D",
+        cuaed_white: "#FCFCFC",
+      }
+    },
   },
   plugins: [],
 }
