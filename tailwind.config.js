@@ -7,6 +7,10 @@ export default {
         cuaed_blue: "#25387E",
         cuaed_gold: "#E99F1D",
         cuaed_white: "#FCFCFC",
+      },
+      fontFamily: {
+        barlow: ["Barlow", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       }
     },
   },
