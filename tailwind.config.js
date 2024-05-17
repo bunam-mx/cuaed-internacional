@@ -9,7 +9,7 @@ export default {
         cuaed_white: "#FCFCFC",
       },
       fontFamily: {
-        barlow: ["Barlow", "sans-serif"],
+        barlow: ["Barlow Condensed", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       }
     },
