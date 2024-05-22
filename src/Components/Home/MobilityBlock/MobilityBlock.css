@@ -2,7 +2,7 @@
     @apply p-10;
 }
 .mobility-block__central {
-    @apply container mx-auto lg:grid lg:grid-cols-2 lg:gap-8;
+    @apply container mx-auto lg:grid lg:grid-cols-2 lg:gap-8 lg:py-10 2xl:py-16;
 }
 .mobility-block__central--block {
     @apply bg-cuaed_gold p-4 rounded-lg text-cuaed_white xl:px-8 2xl:px-16;
