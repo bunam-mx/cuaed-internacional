@@ -1,9 +1,11 @@
+import HeroBlock from "../../Components/Home/HeroBlock/HeroBlock";
+
 function Home() {
-    return (
-        <div>
-            <h1>Home</h1>
-        </div>
-    )
+  return (
+    <>
+      <HeroBlock />
+    </>
+  );
 }
 
 export default Home;

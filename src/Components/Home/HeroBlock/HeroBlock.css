@@ -1,0 +1,42 @@
+.hero-block {
+    @apply min-h-screen text-cuaed_white;
+    background: url(/images/hero-block.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hero-block__central {
+    max-width: 768px;
+    @apply mx-auto flex flex-col items-center justify-center pt-20 px-6 text-center;
+}
+
+.hero-block__options {
+    @apply container mx-auto p-6 mt-2 lg:grid lg:grid-cols-2 lg:gap-10 xl:gap-20;
+}
+
+.hero-block__options--option {
+    @apply flex flex-row items-center justify-center p-4 my-4 border border-cuaed_white rounded-lg;
+}
+
+.hero-block__options--option > div {
+    @apply w-3/5 flex flex-col;
+}
+
+.hero-block__options--option-image {
+    @apply w-2/5;
+}
+
+.hero-block__options--option-image > img {
+    @apply rounded-lg;
+}
+
+.hero-block__options--option-title {
+    @apply font-barlow font-bold text-3xl mb-4;
+}
+
+.hero-block__options--option-link {
+    @apply text-right mt-8;
+}
+
+.hero-block__options--option-link > a {
+    @apply bg-cuaed_gold p-2 rounded;
+}
