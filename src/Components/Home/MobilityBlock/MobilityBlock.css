@@ -1,0 +1,27 @@
+.mobility-block {
+    @apply p-10;
+}
+.mobility-block__central {
+    @apply container mx-auto lg:grid lg:grid-cols-2 lg:gap-8;
+}
+.mobility-block__central--block {
+    @apply bg-cuaed_gold p-4 rounded-lg text-cuaed_white xl:px-8 2xl:px-16;
+}
+.mobility-block__central--block h2 {
+    @apply font-barlow text-sm xl:text-lg my-4 md:mt-10 xl:my-10;
+}
+.mobility-block__central--block h3 {
+    @apply font-barlow font-bold text-3xl xl:text-5xl 2xl:text-6xl my-8 xl:my-12 2xl:my-16 2xl:mb-20;
+}
+.mobility-block__central--block-link {
+    @apply mt-8 xl:mt-12 2xl:mt-24 md:mb-10;
+}
+.mobility-block__central--block-link > a {
+    @apply bg-cuaed_white text-cuaed_gold p-2 md:px-4 rounded inline-block;
+}
+.mobility-block__central--pictures {
+    @apply my-8 xl:my-0 md:grid md:grid-cols-2 md:gap-4;
+}
+.mobility-block__central--pictures > img {
+    @apply my-2 md:my-0 rounded-lg;
+}
