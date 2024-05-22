@@ -18,11 +18,11 @@
 }
 
 .hero-block__options--option > div {
-    @apply w-3/5 flex flex-col;
+    @apply w-3/5 flex flex-col pl-2;
 }
 
 .hero-block__options--option-image {
-    @apply w-2/5;
+    @apply w-2/5 pl-0 pr-2;
 }
 
 .hero-block__options--option-image > img {
@@ -38,5 +38,5 @@
 }
 
 .hero-block__options--option-link > a {
-    @apply bg-cuaed_gold p-2 rounded;
+    @apply bg-cuaed_gold p-2 rounded inline-block;
 }
