@@ -1,0 +1,26 @@
+.mission-block {
+    @apply bg-cuaed_gold text-cuaed_white py-6 md:py-48;
+}
+.mission-block__content {
+    max-width: 1200px;
+    @apply mx-auto md:flex md:flex-row items-center justify-center;
+}
+.mission-block__content--image {
+    @apply md:w-1/2 p-2;
+}
+.mission-block__content--image > img {
+    max-width: 480px;
+    @apply w-full rounded-md mx-auto;
+}
+.mission-block__content--text {
+    @apply md:w-1/2 px-6;
+}
+.mission-block__content--text h2 {
+    @apply font-barlow font-bold text-3xl md:text-4xl mt-14 md:mt-0 mb-14;
+}
+.mission-block__content--text p, .mission-block__content--text li {
+    @apply md:text-xl md:leading-relaxed;
+}
+.mission-block__content--text ul {
+    @apply list-disc pl-6;
+}
