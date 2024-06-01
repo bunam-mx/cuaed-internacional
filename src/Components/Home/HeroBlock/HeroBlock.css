@@ -1,12 +1,12 @@
 .hero-block {
-    @apply min-h-screen text-cuaed_white;
+    @apply min-h-screen text-cuaed_blue;
     background: url(/images/hero-block.jpg) center no-repeat;
     background-size: cover;
 }
 
 .hero-block__central {
-    max-width: 768px;
-    @apply mx-auto flex flex-col items-center justify-center pt-20 px-6 text-center;
+    max-width: 800px;
+    @apply mx-auto flex flex-col items-center justify-center pt-20 px-6 text-center text-cuaed_white lg:text-2xl lg:leading-relaxed;
 }
 
 .hero-block__options {
