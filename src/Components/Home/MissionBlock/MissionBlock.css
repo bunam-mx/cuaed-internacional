@@ -2,8 +2,7 @@
     @apply bg-cuaed_gold text-cuaed_white py-6 md:py-48;
 }
 .mission-block__content {
-    max-width: 1200px;
-    @apply mx-auto md:flex md:flex-row items-center justify-center;
+    @apply container mx-auto md:flex md:flex-row items-center justify-center;
 }
 .mission-block__content--image {
     @apply md:w-1/2 p-2;
