@@ -1,0 +1,82 @@
+.coil-block {
+    background-color: #f9faf4;
+}
+.coil-block__content {
+    @apply text-cuaed_blue container mx-auto py-20 leading-relaxed lg:text-xl;
+}
+.coil-ribbon {
+    @apply grid grid-cols-10;
+}
+.coil-ribbon span {
+    padding: 2px;
+    background-color: #006ce8;
+}
+.coil-ribbon span:nth-child(2) {
+    background-color: #ff7946;
+}
+.coil-ribbon span:nth-child(3) {
+    background-color: #82a002;
+}
+.coil-ribbon span:nth-child(4) {
+    background-color: #ffcb2a;
+}
+.coil-ribbon span:nth-child(5) {
+    background-color: #21c7b9;
+}
+.coil-ribbon span:nth-child(6) {
+    background-color: #2e7f70;
+}
+.coil-ribbon span:nth-child(7) {
+    background-color: #0386ee;
+}
+.coil-ribbon span:nth-child(8) {
+    background-color: #164161;
+}
+.coil-ribbon span:nth-child(9) {
+    background-color: #093051;
+}
+.coil-ribbon span:nth-child(10) {
+    background-color: #ff5259;
+}
+.coil-block__info--description, .coil-block__info--resources {
+    @apply mb-10 py-10 px-4;
+}
+.coil-block__info--description h2 {
+    @apply font-barlow font-semibold text-3xl md:text-4xl xl:text-6xl;
+}
+.coil-block__info--description h3 {
+    @apply font-barlow font-medium text-cuaed_gold mb-10 text-xl xl:text-2xl;
+}
+.coil-block__info--options {
+    @apply pb-10;
+}
+.coil-block__info--resources {
+    @apply md:grid md:grid-cols-2 gap-10 items-end pb-20;
+}
+.coil-block__info--resources h3 {
+    @apply py-10 font-barlow font-medium text-cuaed_gold text-2xl md:text-3xl xl:text-4xl;
+}
+.coil-block__info--resources ul {
+    @apply list-disc pl-4;
+}
+.coil-block__info--resources ul li > a {
+    @apply underline
+}
+.coil-block__info--resources ul li {
+    color: #006ce8;
+}
+.coil-block__info--resources ul li:nth-child(2) {
+    color: #ff7946;
+}
+.coil-block__info--resources ul li:nth-child(3) {
+    color: #82a002;
+}
+.coil-block__info--resources ul li:nth-child(4) {
+    color: #21c7b9;
+}
+.coil-block__info--resources ul li:nth-child(5) {
+    color: #093051;
+}
+.coil-block__info--resources ul li:nth-child(6) {
+    color: #ff5259;
+}
