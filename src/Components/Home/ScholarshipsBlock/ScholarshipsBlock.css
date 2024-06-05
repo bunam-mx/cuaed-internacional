@@ -1,0 +1,15 @@
+.scholarships-block {
+    @apply bg-cuaed_blue text-cuaed_white py-20;
+}
+.scholarships-block__content {
+    @apply container mx-auto px-2 lg:px-4 lg:text-xl;
+}
+.scholarships-block__content h2 {
+    @apply font-barlow font-semibold text-3xl mb-6 md:text-4xl md:mb-8 xl:text-6xl xl:mb-10;
+}
+.scholarships-block__content--scholarship {
+    @apply lg:grid lg:grid-cols-2 lg:gap-10;
+}
+.scholarships-block__content--scholarship-item a {
+    @apply hover:underline;
+}
