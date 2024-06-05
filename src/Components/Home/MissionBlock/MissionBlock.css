@@ -15,7 +15,7 @@
     @apply md:w-1/2 px-6 mb-6 md:mb-0;
 }
 .mission-block__content--text h2 {
-    @apply font-barlow font-bold text-3xl md:text-4xl mb-14;
+    @apply font-barlow font-semibold text-3xl md:text-4xl lg:text-6xl mb-14;
 }
 .mission-block__content--text p, .mission-block__content--text li {
     @apply md:text-xl md:leading-relaxed;
