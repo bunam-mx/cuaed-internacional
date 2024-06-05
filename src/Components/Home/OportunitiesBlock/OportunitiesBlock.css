@@ -23,7 +23,7 @@
     @apply col-span-3 text-center;
 }
 .oportunities-block__oportunities--row-legend h2 {
-    @apply font-barlow font-bold text-3xl mt-6 md:mt-0 md:mb-6;
+    @apply font-barlow font-semibold text-3xl mt-6 md:mt-0 md:mb-6;
 }
 .oportunities-block__oportunities--row-titles {
     @apply grid grid-cols-4 text-center py-4;
