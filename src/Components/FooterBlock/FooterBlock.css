@@ -1,0 +1,9 @@
+.footer-block {
+    @apply bg-cuaed_blue text-cuaed_white;
+}
+.footer-block__container {
+    @apply container mx-auto;
+}
+.coil-block__container--info {
+    @apply flex flex-row items-center justify-center py-6;
+}

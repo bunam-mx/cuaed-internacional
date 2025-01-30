@@ -2,7 +2,7 @@ import "./CoilBlock.css";
 
 function CoilBlock() {
   return (
-    <section className="coil-block">
+    <section className="coil-block" id="coil">
       <div className="coil-ribbon">
         <span></span>
         <span></span>

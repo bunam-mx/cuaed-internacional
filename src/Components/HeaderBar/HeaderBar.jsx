@@ -29,11 +29,11 @@ function HeaderBar() {
           </div>
           <nav className="sm:w-3/5 text-center sm:text-right content-center">
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">COIL</a></li>
-              <li><a href="#">Becas</a></li>
+              <li><a href="/">Inicio</a></li>
+              <li><a href="#coil">COIL</a></li>
+              <li><a href="#becas">Becas</a></li>
               <li><a href="#">Certámenes</a></li>
-              <li><a href="#">Vinculación</a></li>
+              <li><a href="#vinculacion">Vinculación</a></li>
             </ul>
           </nav>
         </div>

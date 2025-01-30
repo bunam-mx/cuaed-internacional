@@ -1,0 +1,16 @@
+.outreach-block__container {
+    @apply container mx-auto my-20 text-center;
+}
+.outreach-block__container h2 {
+    @apply font-barlow font-semibold text-3xl mb-6 md:text-4xl md:mb-8 xl:text-6xl xl:mb-10;
+}
+.outreach-block__container p {
+    max-width: 800px;
+    @apply my-10 mx-auto lg:text-xl;
+}
+.outreach-block__container--institutions {
+    @apply flex flex-row items-center justify-center;
+}
+.outreach-block__container--institutions div {
+    @apply p-4;
+}
