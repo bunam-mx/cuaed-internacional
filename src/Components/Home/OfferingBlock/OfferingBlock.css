@@ -1,0 +1,12 @@
+#offering h2 {
+  @apply font-barlow font-semibold text-3xl md:text-4xl xl:text-6xl;
+}
+.testimonial {
+  @apply relative block overflow-hidden rounded-lg border bg-cuaed_white border-gray-100 p-4 sm:p-6 lg:p-8;
+}
+.testimonial:hover {
+  @apply shadow-lg;
+}
+.formations {
+  @apply mt-14 block bg-cuaed_gold text-cuaed_white p-4 leading-relaxed font-barlow text-xl text-center hover:shadow-lg;
+}

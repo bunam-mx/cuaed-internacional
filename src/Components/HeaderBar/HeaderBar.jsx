@@ -31,7 +31,7 @@ function HeaderBar() {
             <ul>
               <li><a href="/">Inicio</a></li>
               <li><a href="#coil">COIL</a></li>
-              <li><a href="#becas">Becas</a></li>
+              <li><a href="#offering">Oferta COIL</a></li>
               <li><a href="#">Certámenes</a></li>
               <li><a href="#vinculacion">Vinculación</a></li>
             </ul>
