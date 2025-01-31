@@ -1,0 +1,9 @@
+#ghc {
+  @apply min-h-screen flex items-center lg:text-xl;
+}
+#ghc h2 {
+  @apply font-barlow font-bold text-6xl pb-2 mb-8 border-b text-purple-800;
+}
+#ghc h3 {
+  @apply font-barlow font-medium text-cuaed_gold mb-10 text-xl lg:text-4xl;
+}

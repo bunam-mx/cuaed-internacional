@@ -8,5 +8,5 @@
   @apply shadow-lg;
 }
 .formations {
-  @apply mt-14 block bg-cuaed_gold text-cuaed_white p-4 leading-relaxed font-barlow text-xl text-center hover:shadow-lg;
+  @apply mt-14 block bg-cuaed_gold text-cuaed_white p-4 leading-relaxed font-barlow text-2xl text-center hover:shadow-lg;
 }

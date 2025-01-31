@@ -32,8 +32,7 @@ function HeaderBar() {
               <li><a href="/">Inicio</a></li>
               <li><a href="#coil">COIL</a></li>
               <li><a href="#offering">Oferta COIL</a></li>
-              <li><a href="#">Certámenes</a></li>
-              <li><a href="#vinculacion">Vinculación</a></li>
+              <li><a href="#ghc">GHC</a></li>
             </ul>
           </nav>
         </div>
