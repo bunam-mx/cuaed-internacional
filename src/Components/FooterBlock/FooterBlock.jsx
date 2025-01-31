@@ -4,82 +4,16 @@ function FooterBlock() {
   return (
     <footer className="footer-block">
       <div className="footer-block__container">
-        <div className="coil-block__container--info">
-          <div>
-            <h2>COIL</h2>
-            <ul>
-              <li>
-                <a href="">Estudiantes</a>
-              </li>
-              <li>
-                <a href="">Docentes</a>
-              </li>
-              <li>
-                <a href="">Sitio COIL</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2>Becas</h2>
-            <ul>
-              <li>
-                <a href="">Estudiantes</a>
-              </li>
-              <li>
-                <a href="">Docentes</a>
-              </li>
-              <li>
-                <a href="">Funcionarios</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2>Certámenes</h2>
-            <ul>
-              <li>
-                <a href="">Estudiantes</a>
-              </li>
-              <li>
-                <a href="">Docentes</a>
-              </li>
-              <li>
-                <a href="">Funcionarios</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2>Vinculación</h2>
-            <ul>
-              <li>
-                <a href="">Docentes</a>
-              </li>
-              <li>
-                <a href="">Funcionarios</a>
-              </li>
-            </ul>
-          </div>
-          <div>
+        <div className="pt-4">
+          <div className="text-right">
             <h2>Contacto</h2>
-            <ul>
-              <li>
-                <a href="">internacional@cuaed.unam.mx</a>
-              </li>
-              <li>
-                <a href="">Facebook</a>
-              </li>
-              <li>
-                <a href="">Instagram</a>
-              </li>
-              <li>
-                <a href="">X</a>
-              </li>
-            </ul>
+            <p><a href="mailto:internacional@cuaed.unam.mx" target="_blank" rel="noopener noreferrer">internacional@cuaed.unam.mx</a></p>
           </div>
         </div>
         <div className="coil-block__cointainer--disclaimer">
           <div>
             <h6>Desarrollado por</h6>
-            <a href=""><img src="/images/bunam-blanco.png" alt="" width={140} /></a>
+            <a href=""><img src="/images/bunam-blanco.png" alt="" width={110} /></a>
           </div>
           <div>
             <h6>Aviso</h6>

@@ -1,9 +1,15 @@
 .footer-block {
-    @apply bg-cuaed_blue text-cuaed_white;
+    @apply bg-cuaed_blue text-cuaed_white p-4;
 }
 .footer-block__container {
     @apply container mx-auto;
 }
 .coil-block__container--info {
     @apply flex flex-row items-center justify-center py-6;
+}
+.coil-block__cointainer--disclaimer {
+    @apply text-xs;
+}
+.coil-block__cointainer--disclaimer h6 {
+    @apply text-sm my-4;
 }
