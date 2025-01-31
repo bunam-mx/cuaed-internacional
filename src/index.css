@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+
+  --color-cuaed-blue: oklch(36.81% 0.1208 268.42);
+  --color-cuaed-gold: oklch(75.68% 0.1539 74.12);
+  --color-cuaed-white: oklch(99.11% 0 0);
+
+  --font-header: "Barlow Condensed", "sans-serif";
+  --font-display: "Montserrat", "sans-serif";
+}
