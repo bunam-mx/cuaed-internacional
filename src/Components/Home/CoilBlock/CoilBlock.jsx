@@ -21,8 +21,6 @@ function CoilBlock() {
           </article>
           <article className="coil-block__info--options">
             <img src="/images/coil-block.jpg" alt="Elementos COIL" />
-          </article>
-          <article className="coil-block__info--resources">
             <div>
               <h3>Recursos para elaborar un COIL</h3>
               <p>
@@ -32,8 +30,6 @@ function CoilBlock() {
                 recursos para lograr una experiencia productiva, interesante y
                 agradable para diseñar y operar estas experiencias.
               </p>
-            </div>
-            <div>
               <ul>
                 <li>
                   Sitio web:{" "}
