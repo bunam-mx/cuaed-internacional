@@ -1,12 +1,23 @@
 .hero-block {
-    @apply min-h-screen text-cuaed_blue;
+    @apply min-h-screen text-cuaed_blue flex items-center;
     background: url(/images/hero-block.jpg) center no-repeat;
     background-size: cover;
 }
 
 .hero-block__central {
-    max-width: 800px;
-    @apply mx-auto flex flex-col items-center justify-center pt-20 px-6 text-center text-cuaed_white lg:text-2xl lg:leading-relaxed;
+    @apply container mx-auto grid grid-cols-2 gap-10 text-cuaed_white lg:text-2xl lg:leading-relaxed;
+}
+
+.hero-block__central--mission {
+    @apply pl-10
+}
+
+.hero-block__central--mission h2 {
+    @apply font-barlow font-bold text-6xl pb-2 mb-6 border-b border-white;
+}
+
+.hero-block__central--mission li {
+    @apply list-disc ml-6 my-4;
 }
 
 .hero-block__options {

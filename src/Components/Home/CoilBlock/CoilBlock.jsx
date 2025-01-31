@@ -3,18 +3,6 @@ import "./CoilBlock.css";
 function CoilBlock() {
   return (
     <section className="coil-block" id="coil">
-      <div className="coil-ribbon">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
       <div className="coil-block__content">
         <div className="coil-block__info">
           <article className="coil-block__info--description">
