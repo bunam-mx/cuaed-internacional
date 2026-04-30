@@ -5,7 +5,7 @@
 }
 
 .hero-block__central {
-    @apply container mx-auto grid grid-cols-2 gap-10 text-cuaed_white lg:text-2xl lg:leading-relaxed;
+    @apply container mx-auto p-5 grid md:grid-cols-2 gap-10 text-cuaed_white lg:text-2xl lg:leading-relaxed;
 }
 
 .hero-block__central--mission {

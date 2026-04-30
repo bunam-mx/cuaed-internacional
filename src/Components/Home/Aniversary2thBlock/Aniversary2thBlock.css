@@ -1,0 +1,28 @@
+.aniversary2th-block{
+    @apply container mx-auto px-5 py-10 lg:py-20 xl:py-32 grid lg:grid-cols-2 gap-10;
+}
+.aniversary2th-block__image {
+    img {
+        @apply block mx-auto;
+    }
+    h2 {
+        @apply font-barlow font-bold text-3xl text-center mt-8 text-cuaed_blue;
+    }
+}
+.aniversary2th-block__data {
+    h2 {
+        @apply font-barlow font-bold text-4xl my-4 text-cuaed_gold;
+    }
+    h3 {
+        @apply font-barlow font-bold text-3xl my-4 text-cuaed_blue;
+    }
+    ul {
+        @apply list-disc ml-6 my-4 text-cuaed_blue;
+    }
+    ul li {
+        @apply mb-4;
+    }
+    span {
+        @apply text-cuaed_blue font-bold;
+    }
+}
