@@ -7,6 +7,9 @@ import GHCBlock from "../../Components/Home/GHCBlock/GHCBlock";
 function Home() {
   return (
     <>
+      <div className="mx-auto py-20 px-10">
+        <img src="images/internacional-2aniversario.jpeg" className="mx-auto" alt="" />
+      </div>
       <HeroBlock />
       <CoilBlock />
       <OfferingBlock />

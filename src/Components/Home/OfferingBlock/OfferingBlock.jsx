@@ -4,7 +4,7 @@ import "./OfferingBlock.css";
 function OfferingBlock() {
   return (
     <div id="offering" className="min-h-screen flex items-center">
-      <div className="container mx-auto grid grid-cols-3 lg:grid-cols-4 gap-10">
+      {/*<div className="container mx-auto grid grid-cols-3 lg:grid-cols-4 gap-10">
         <div className="">
           <h2>Oferta COIL</h2>
           <p>
@@ -25,7 +25,9 @@ function OfferingBlock() {
             <a className="formations" href="mailto:internacional@cuaed.unam.mx">¿Quieres una formación con tus colegas SUAyED?</a>
           </div>
         </div>
-        <div className="col-span-2 lg:col-span-3 p-10 bg-gray-50 rounded-lg">
+        <div className="col-span-2 lg:col-span-3 p-10 bg-gray-50 rounded-lg">*/}
+      <div className="container mx-auto">
+        <div className="p-10 bg-gray-50 rounded-lg">
           <h2>Testimonios</h2>
           <div className="p-10">
             <TestimonialsBlock />

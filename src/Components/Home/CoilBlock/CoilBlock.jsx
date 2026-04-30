@@ -32,18 +32,8 @@ function CoilBlock() {
               </p>
               <ul>
                 <li>
-                  Sitio web:{" "}
                   <a
-                    href="https://coil.unam.mx"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    coil.unam.mx
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://coil.unam.mx/#/recursos/tutorial"
+                    href="https://www.youtube.com/watch?v=YwQGUAkluM4"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -56,7 +46,7 @@ function CoilBlock() {
                   Asesoría a lo largo de la planeación, implementación y
                   seguimiento
                 </li>
-                <li>
+                {/*<li>
                   <a
                     href="https://coil.unam.mx/#/recursos"
                     target="_blank"
@@ -65,7 +55,7 @@ function CoilBlock() {
                     Algunos artículos y eventos que permiten la formación
                     continua
                   </a>
-                </li>
+                </li>*/}
               </ul>
             </div>
           </article>

@@ -1,52 +1,59 @@
+import TestimonialBlock from "../../TestimonialBlock/TestimonialBlock";
+
+const testimonialsArray = [
+  {
+    id: 1,
+    url: "https://youtu.be/j-9EtCXw-bo",
+    title: "Consejería en línea",
+    image: "anabel-delarosa.jpg",
+    description: "La Dra. Anabel de la Rosa Gómez relata su experiencia con la Universidad de Autónoma de Honduras en la impartición del curso Consejería en Línea.",
+    date: "6 de agosto 2024",
+    length: "3 minutos"
+  },
+  {
+    id: 2,
+    url: "https://www.youtube.com/watch?v=9_dsT6Guxc0",
+    title: "COIL Electroscopia entre la FES Cuautitlán y la Universidad del Salvador",
+    image: "benjamin-velasco.jpg",
+    description: "El Dr. Benjamín Velasco Bejarano de la FES Cuautitlán (UNAM) nos cuenta su experiencia al implementar un proyecto COIL (Collaborative Online International Learning) con el Dr. David Francisco Torres Romero de la Universidad del Salvador.",
+    date: "20 de febrero 2025",
+    length: "4 minutos"
+  },
+  {
+    id: 3,
+    url: "https://www.youtube.com/watch?v=aZDmbMDWdMI",
+    title: "COIL Panorama de las lenguas indígenas",
+    image: "david-chavez.jpg",
+    description: "El Dr. David Chávez nos habla del proyecto COIL (Collaborative Online International Learning) que lideró junto a la profesora Nolvia López de Honduras.",
+    date: "10 abril 2025",
+    length: "2 minutos"
+  },
+  {
+    id: 4,
+    url: "https://www.youtube.com/watch?v=MJzTN0ygHis",
+    title: "Utilización de la historieta para la sensibilización de temas entre jóvenes",
+    image: "jorge-anaya.jpg",
+    description: "El Dr. Jorge Salvador Anaya Martínez de la UNAM nos comparte su experiencia en un proyecto COIL con la Universidad Tecnológica del Estado Metropolitano de Chile.",
+    date: "20 de agosto 2025",
+    length: "3 minutos"
+  },
+  {
+    id: 5,
+    url: "https://www.youtube.com/watch?v=B8ACYITQb_Y",
+    title: "Tríada CORNADA - COIL",
+    image: "francisco-pino.jpg",
+    description: "El Dr. Francisco Pino nos habla de su experiencia con la Tríada CORNADA, un proyecto para fomentar la colaboración internacional en línea.",
+    date: "26 de noviembre 2025",
+    length: "14 minutos"
+  }
+];
+
 const TestimonialsBlock = () => {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-items-end">
-      <div className="hidden md:block">&nbsp;</div>
-      <div className="hidden lg:block">&nbsp;</div>
-      <div>
-        <a
-          href="https://youtu.be/j-9EtCXw-bo"
-          target="_blank"
-          className="testimonial"
-        >
-          <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
-
-          <div className="sm:flex sm:justify-between sm:gap-4">
-            <div>
-              <h3 className="text-lg font-bold text-cuaed_blue sm:text-xl">
-                Consejería en línea
-              </h3>
-            </div>
-            <div className="hidden sm:block sm:shrink-0">
-              <img
-                alt=""
-                src="images/testimonials/anabel-delarosa.jpg"
-                className="size-16 rounded-lg object-cover shadow-sm"
-              />
-            </div>
-          </div>
-
-          <div className="mt-4">
-            <p className="text-pretty text-sm text-gray-500">
-              La Dra. Anabel de la Rosa Gómez relata su experiencia con la
-              Universidad de Autónoma de Honduras en la impartición del curso
-              Consejería en Línea.
-            </p>
-          </div>
-
-          <dl className="mt-6 flex gap-4 sm:gap-6">
-            <div className="flex flex-col-reverse">
-              <dt className="text-sm font-medium text-gray-600">Publicación</dt>
-              <dd className="text-xs text-gray-500">6 de agosto 2024</dd>
-            </div>
-
-            <div className="flex flex-col-reverse">
-              <dt className="text-sm font-medium text-gray-600">Duración</dt>
-              <dd className="text-xs text-gray-500">3 minutos</dd>
-            </div>
-          </dl>
-        </a>
-      </div>
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-end">
+      {testimonialsArray.map((testimonial) => (
+        <TestimonialBlock key={testimonial.id} {...testimonial} />
+      ))}
     </div>
   );
 };
